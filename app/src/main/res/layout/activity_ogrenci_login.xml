@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="130dp"
+            android:text="ÖĞRENCİ\nGİRİŞ SAYFASI"
+            android:textSize="26dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/ogrenciLoginNoTxt"
+            android:layout_width="310dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="80dp"
+            android:ems="10"
+            android:inputType="number"
+            android:hint="Okul Numaranızı Giriniz"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/ogrenciLoginBtn"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Giriş Yap"
+            android:layout_gravity="center"
+            android:textAllCaps="false"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
