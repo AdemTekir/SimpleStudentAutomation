@@ -12,7 +12,7 @@ public class ConSQL {
 
     @SuppressLint("NewApi")
     public Connection conClass(){
-        String ip = "159.146.38.239", port = "1433", db = "VeriTabaniOdevi", username = "sa", password = "1234adem";
+        String ip = "ipAddress", port = "port", db = "databaseName", username = "username", password = "password";
 
         StrictMode.ThreadPolicy a = new StrictMode.ThreadPolicy.Builder().permitAll().build();
         StrictMode.setThreadPolicy(a);
